@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "548296251197",
+    "project_id": "migrosugur-7eedd",
+    "storage_bucket": "migrosugur-7eedd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548296251197:android:aa3579b2a74e740c0ed754",
+        "android_client_info": {
+          "package_name": "com.migros.mkolay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548296251197-d7de303evgve3fjnj3v21762t5r1npas.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLgc6dgIhIr-shDgM9J_Kw-xw7B3sBFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548296251197-d7de303evgve3fjnj3v21762t5r1npas.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="amount_button_stroke">#65BAB0</color>
+    <color name="amount_button_color">#D6ECE9</color>
+    <color name="history_detail_back">#FAFAFA</color>
+    <color name="history_back">#FAFAFA</color>
+    <color name="history_stroke">#DDDBDB</color>
+    <color name="result_back">#FAFAFA</color>
+    <color name="result_stroke">#DDDBDB</color>
+    <color name="priceColor">#65BAB0</color>
+    <color name="discountColor">#49BA20</color>
+    <color name="nearGray">#777777</color>
+    <color name="lightGray">#BAB5B5</color>
+    <color name="basket_amount_button_stroke">#6C6B6B</color>
+    <color name="basket_amount_button_color">#DCD5D5</color>
+    <color name="status_bar_main_color">#741b51</color>
+    <color name="main_screen_title_color">#9c1a57</color>
+    <color name="mainPurple">#A31050</color>
+
+    <color name="homePageColor">#FF9800</color>
+    <color name="qrActivityColor">#9c1a57</color>
+    <color name="shoppingIntroActivityColor">#9c1a57</color>
+    <color name="basketActivityColor">#9c1a57</color>
+    <color name="basketHistoryActivityColor">#65BAB0</color>
+    <color name="basketHistoryDetailActivityColor">#65BAB0</color>
+    <color name="addNewCardActivityColor">#9c1a57</color>
+
+</resources>

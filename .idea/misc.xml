@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="res/drawable-hdpi/amount_button_background.xml" value="0.2085" />
+        <entry key="res/drawable-hdpi/basket_amount_button.xml" value="0.2085" />
+        <entry key="res/drawable-hdpi/basket_amount_button_back.xml" value="0.2085" />
+        <entry key="res/drawable-v24/ic_launcher_foreground.xml" value="0.2085" />
+        <entry key="res/drawable/history_background.xml" value="0.2085" />
+        <entry key="res/drawable/ic_launcher_background.xml" value="0.2085" />
+        <entry key="res/drawable/result_background.xml" value="0.2085" />
+        <entry key="res/layout/activity_basket.xml" value="0.16893115942028986" />
+        <entry key="res/layout/activity_basket_history.xml" value="0.1046875" />
+        <entry key="res/layout/activity_basket_history_detail.xml" value="0.25" />
+        <entry key="res/layout/activity_main.xml" value="0.16893115942028986" />
+        <entry key="res/layout/activity_new_card.xml" value="0.16893115942028986" />
+        <entry key="res/layout/activity_shopping_intro.xml" value="0.1046875" />
+        <entry key="res/layout/basket_items.xml" value="0.16893115942028986" />
+        <entry key="res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2085" />
+        <entry key="res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2085" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

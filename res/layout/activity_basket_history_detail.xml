@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BasketHistoryDetailActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/topView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/toolbarLayout"
+
+        android:background="#EFEFF1">
+
+
+        <ImageView
+            android:id="@+id/calendarImage"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/calendaricon" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/calendarImage"
+            android:alpha="0.8"
+            android:src="@drawable/calendaricon"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/shopName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calendarImage"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/pdfImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="30dp"
+            android:src="@drawable/pdf_image" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/toolbarLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp">
+
+        <include layout="@layout/toolbar" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/summaryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topView"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/summaryText"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/detailsRecyclerView"
+
+
+        android:layout_below="@+id/summaryText"
+        android:layout_above="@+id/bottomView"
+        android:layout_centerHorizontal="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <RelativeLayout
+        android:id="@+id/bottomView"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        android:background="#EFEFF1"
+        android:gravity="center_horizontal">
+
+
+        <ImageView
+            android:id="@+id/basketImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/basket_image" />
+
+        <TextView
+            android:id="@+id/basketPriceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/basketImage"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:alpha="0.6"
+            android:src="@drawable/calendaricon"
+            android:text="@string/basketPriceText"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/basketPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/basketPriceText"
+            android:layout_gravity="center"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="5dp"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:src="@drawable/calendaricon"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+        <View
+            android:id="@+id/firstView"
+            android:layout_width="80sp"
+            android:layout_height="1dp"
+            android:layout_marginTop="35dp"
+            android:layout_toStartOf="@+id/discountImage"
+            android:layout_toEndOf="@id/basketImage"
+            android:background="#E1DFDF"
+            android:padding="0dp" />
+
+        <ImageView
+            android:id="@+id/discountImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+
+            android:src="@drawable/discount_image" />
+
+        <TextView
+            android:id="@+id/discountText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/discountImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:text="@string/discountText"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/discount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/discountText"
+
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/firstView"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/discountColor"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <View
+            android:id="@+id/secondView"
+            android:layout_width="80sp"
+            android:layout_height="1dp"
+            android:layout_marginTop="35dp"
+            android:layout_toStartOf="@id/totalPriceImage"
+            android:layout_toEndOf="@id/discountImage"
+            android:background="#E1DFDF" />
+
+
+        <ImageView
+            android:id="@+id/totalPriceImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="45dp"
+            android:src="@drawable/total_price_image" />
+
+        <TextView
+            android:id="@+id/totalPriceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/totalPriceImage"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:alpha="0.6"
+            android:src="@drawable/calendaricon"
+            android:text="@string/totalPriceText"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/totalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/totalPriceText"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@id/secondView"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

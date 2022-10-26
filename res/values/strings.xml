@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">MMKolay</string>
+
+
+
+    <string name="apiWay">https://607077eb85c3f00017470331.mockapi.io/</string>
+
+    <string name="new_card_link">https://api-test.moneypay.com.tr:8743/#/list?userToken=73786f6d6b6e4f636f6c6e726c757371</string>
+
+
+
+    <string name="allowValidStatus">2</string>
+    <string name="PROPERTY_REG_ID">registration_id</string>
+    <string name="TEMPTOKEN_CONST_ID">temptoken</string>
+    <string name="QR_CRASH">Status 1001 geldi</string>
+
+
+    <string name="basket_message">Alışverişin bize ulaştı.</string>
+    <string name="basket_desc">Faturan oluştuğunda Alışveriş geçmişim kısmından görüntüleyebilirsin</string>
+    <string name="qr_welcome_text">Hoş geldiniz.</string>
+    <string name="qr_welcome_desc">MKolay Kantin\'e giriş yapabilmek için \nQR kodu turnikeye okutman gerekiyor.</string>
+
+    <string name="mkolay_text">Mkolay Mağaza ile ürünlerinizi kolayca okutun, JetKasa ile ödeyin.</string>
+    <string name="mkantin_text">Mkolay Kantin ile ürünlerinizi kolayca okutun, telefonunuzdan ödeyin</string>
+    <string name="backtoHomePage">Anasayfaya dön</string>
+
+    <string name="new_card_text">Yeni Kart \nEkle</string>
+
+    <string name="paidPrice">Ödenen Tutar</string>
+
+    <string name="shopping_page_title">İyi Alışverişler Dileriz</string>
+    <string name="shopping_page_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</string>
+
+
+    <string name="example_basketID">1</string>
+
+    <string name="adet_str"> Adet</string>
+    <string name="summaryText">Sepet Özeti</string>
+
+    <string name="qrCodeId">qrCodeID</string>
+    <string name="status101">Status 101 geldi.</string>
+    <string name="status1001">Status 1001 geldi.</string>
+    <string name="deniedStatusPage">Sayfaya girmenize izin verilmiyor. Status Code: %1$s</string>
+
+    <string name="basketHistoryActivityText">Alışveriş Geçmişim</string>
+
+    <string name="mKolayNotActive">mKolay Mağaza henüz aktif değildir.</string>
+
+
+    <string name="minus">-</string>
+
+    <!--Data-->
+    <string name="basketDetailsData">basketDetails</string>
+    <string name="dateData">date</string>
+    <string name="shopNameData">shopName</string>
+    <string name="basketPriceData">basketPrice</string>
+    <string name="basketDiscountData">basketDiscount</string>
+    <string name="signData">sign</string>
+    <string name="linkData">link</string>
+
+    <!-- -->
+
+    <string name="discountText">İndirim</string>
+    <string name="basketPriceText">Sepet Tutarı</string>
+    <string name="totalPriceText">Toplam Tutar</string>
+
+    <string-array name="qrCodes">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+
+</resources>
